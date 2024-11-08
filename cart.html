@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+
+</head>
+
+<body>
+    <!-------------------- Navbar ----------------------->
+    <div class="navbar">
+        <div class="logo">
+            <img src="image/loggo2.png" alt="Logo">
+        </div>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product">Product</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-------------------- Cart Content----------------- -->
+    <div class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be inserted here -->
+            </tbody>
+        </table>
+        <div class="cart-summary">
+            <p id="total-price">Total Price: $0.00</p>
+            <button id="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 E-commerce Website</p>
+    </div>
+
+
+</body>
+
+</html>
